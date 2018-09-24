@@ -1,3 +1,2 @@
 # GameEngineFromScratch
-配合我的知乎专栏写的项目
-https://zhuanlan.zhihu.com/c_119702958
+根据知乎上学习的游戏框架来复现完成
