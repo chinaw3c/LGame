@@ -19,7 +19,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
     wc.cbSize = sizeof(WNDCLASSEX);
     wc.style = CS_HREDRAW | CS_VREDRAW;
     wc.lpfnWndProc = WindowProc;
-    wc.hInstace = hInstance;
+    wc.hInstance = hInstance;
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
     wc.hbrBackground = (HBRUSH)COLOR_WINDOW;
     wc.lpszClassName = _T("WindowClass1");
@@ -31,7 +31,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
                          _T("Hello Engine!"),
                          WS_OVERLAPPEDWINDOW,
                          300, 300, 500, 400, NULL, NULL,
-                         hIntance, NULL
+                         hInstance, NULL
                          );
     ShowWindow(hWnd, nCmdShow);
 
@@ -42,7 +42,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
         DispatchMessage(&msg);
     }
 
-    return msg.wParm;
+    return msg.wParam;
 
 }
 
