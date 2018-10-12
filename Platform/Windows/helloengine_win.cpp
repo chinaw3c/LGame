@@ -5,9 +5,9 @@
 	> Created Time: 2018年10月08日 星期一 23时37分19秒
  ************************************************************************/
 
- #include <windows.h>
- #include <windowsx.h>
- #include <tchar.h>
+#include <windows.h>
+#include <windowsx.h>
+#include <tchar.h>
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM LPARAM);
 
