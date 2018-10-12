@@ -1,2 +1,0 @@
-# GameEngineFromScratch
-根据知乎上学习的游戏框架来复现完成
