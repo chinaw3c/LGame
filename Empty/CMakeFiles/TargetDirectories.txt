@@ -1,0 +1,3 @@
+/home/liuaotian/GameEngineFromScratch/Empty/CMakeFiles/rebuild_cache.dir
+/home/liuaotian/GameEngineFromScratch/Empty/CMakeFiles/Empty.dir
+/home/liuaotian/GameEngineFromScratch/Empty/CMakeFiles/edit_cache.dir
