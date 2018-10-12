@@ -30,7 +30,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
                          _T("WindowClass1"),
                          _T("Hello Engine!"),
                          WS_OVERLAPPEDWINDOW,
-                         300. 300. 500. 400. NULL. NULL.
+                         300, 300, 500, 400, NULL, NULL,
                          hIntance, NULL
                          );
     ShowWindow(hWnd, nCmdShow);
